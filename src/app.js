@@ -1,1 +1,2 @@
-import { } from "./hello.js";
+import { } from './hello';
+
