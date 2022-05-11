@@ -1,12 +1,15 @@
 {
   "devDependencies": {
     "@axe-core/cli": "^4.4.2",
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/test-runner": "^0.13.27",
     "eslint": "^8.15.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
   },
   "scripts": {
     "start": "web-dev-server --node-resolve --watch --open",
+    "test": "web-test-runner test/**/*.test.js --node-resolve --watch",
     "test:eslint": "eslint src/**/*.js",
     "test:a11y": "axe.cmd localhost:8000",
     "build": "rollup --config rollup.config.js"
