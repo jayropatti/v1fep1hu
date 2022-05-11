@@ -1,10 +1,7 @@
 {
   "devDependencies": {
-    "eslint": "^8.15.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
-  },
-  "scripts": {
-    "test:eslint": "eslint src/**/*.js"
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@web/rollup-plugin-copy": "^0.3.0",
+    "@web/rollup-plugin-html": "^1.10.3"
   }
 }
