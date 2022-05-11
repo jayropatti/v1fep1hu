@@ -6,6 +6,7 @@
  * @returns <String> - returns the string 'Hello JavaScript'
  */
 function helloJS() {
+  console.log('Dit is het einde van de boilerplate kickoff');
   return 'hello';
 }
 
